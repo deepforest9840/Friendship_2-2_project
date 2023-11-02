@@ -1,0 +1,35 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/senderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sender Name"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:paddingEnd="8dp"
+        android:textColor="@color/cardview_dark_background" />
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message Text"
+        android:layout_toEndOf="@id/senderName"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timestamp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:paddingStart="8dp"
+        android:textColor="@color/design_default_color_primary_dark" />
+
+</RelativeLayout>
