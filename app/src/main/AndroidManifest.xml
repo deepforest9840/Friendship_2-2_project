@@ -29,6 +29,13 @@
         <activity
             android:name=".home_fragement2"
             android:exported="false" />
+
+
+
+        <activity
+            android:name=".userlist"
+            android:exported="false" />
+
         <activity
             android:name=".manage_video"
             android:exported="false" />
@@ -47,7 +54,7 @@
         <activity
             android:name=".chat_activity"
             android:exported="false"
-            android:theme="@style/AppTheme" />
+             />
         <activity
             android:name=".addvideo"
             android:exported="false" />

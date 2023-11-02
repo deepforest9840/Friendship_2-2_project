@@ -221,7 +221,13 @@ DatabaseReference likereference;
                startActivity(new Intent(dashboard.this, manage_profile.class));
 
            }
+           if (itemId == R.id.developer) {
 
-            return super.onOptionsItemSelected(item);
+               startActivity(new Intent(dashboard.this, team.class));
+
+           }
+
+
+           return super.onOptionsItemSelected(item);
         }
     }
