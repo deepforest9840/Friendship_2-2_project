@@ -214,7 +214,7 @@ DatabaseReference likereference;
                 return true;
             }
             if(itemId==R.id.chat){
-                startActivity(new Intent(dashboard.this,chat_activity.class));
+                startActivity(new Intent(dashboard.this,userlist.class));
             }
            if (itemId == R.id.manage_profile) {
 
